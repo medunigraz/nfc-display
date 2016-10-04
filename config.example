@@ -1,0 +1,7 @@
+[attendance]
+url = https://attendance.medunigraz.at/entries/
+user = station
+password = secret
+timeout = 5
+debounce = 10
+nfc_key = 0xFF,0xFF,0xFF,0xFF,0xFF,0xFF

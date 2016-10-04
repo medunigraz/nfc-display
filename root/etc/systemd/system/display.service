@@ -1,0 +1,12 @@
+[Unit]
+Description=MUG Display
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/xinit -- -br -dpms -nocursor -nolisten tcp
+WorkingDirectory=/home/pi/
+User=pi
+Environment=PYTHONIOENCODING=utf_8
+
+[Install]
+WantedBy=network.target
